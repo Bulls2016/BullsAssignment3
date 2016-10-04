@@ -36,6 +36,8 @@ implements IBorrowUI {
         this.addPanel(new ScanningPanel(listener), EBorrowState.SCANNING_BOOKS);
         this.addPanel(new RestrictedPanel(listener), EBorrowState.BORROWING_RESTRICTED);
         this.addPanel(new ConfirmLoanPanel(listener), EBorrowState.CONFIRMING_LOANS);
+        // addPanel(new CancelledPanel(), EBorrowState.CANCELLED);
+		// addPanel(new CompletedPanel(), EBorrowState.COMPLETED);
     }
 
     private void addPanel(ABorrowPanel panel, EBorrowState state) {
