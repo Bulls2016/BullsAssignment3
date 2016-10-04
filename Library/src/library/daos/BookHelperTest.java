@@ -9,7 +9,7 @@ import junit.framework.TestCase;
  */
 public class BookHelperTest extends TestCase {
 
-	
+	// Exception
 	protected void setUp() throws Exception {
 		super.setUp();
 	}
