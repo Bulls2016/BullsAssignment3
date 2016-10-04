@@ -7,6 +7,7 @@ import junit.framework.TestCase;
 
 /**
  * @author 11535657
+ nitish
  *
  */
 public class MemberHelperTest extends TestCase {
@@ -17,7 +18,7 @@ public class MemberHelperTest extends TestCase {
 	}
        
         //
-        // test for testMakeMember
+        // test for   testMakeMember
         //
 	
 	public void testMakeMember() {
@@ -25,7 +26,7 @@ public class MemberHelperTest extends TestCase {
 	}
 
 	private void fail(String string) {
-		// TODO Auto-generated method stub
+		// TODO    Auto-generated method stub
 		
 	}
 
